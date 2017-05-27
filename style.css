@@ -34,6 +34,8 @@
 button{
     position: center;
     display: block;
+    padding: 0;
+    margin: 0;
 }
 .text-orange{
 color: #ff6600;
@@ -70,9 +72,7 @@ hr.star-primary:after {
   background-color: white;
   color: #2C3E50;
 }
-nav{
-    padding :2.5px;
-}
+
 div.name,div.bio{
     padding : 5px;
     margin: 5px;
@@ -116,12 +116,12 @@ div.name,div.bio{
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
-}
+  }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #0E1428;
   background: white;
   border: solid 2px white;
 }
@@ -132,4 +132,10 @@ div.name,div.bio{
 .margin-small-center{
   margin-left: 25%;
   margin-right: 25%;
+}
+.fixed{
+  position:fixed;
+}
+.portfolio-image{
+  opacity: 0.5;
 }
