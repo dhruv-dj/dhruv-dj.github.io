@@ -137,7 +137,7 @@ div.name,div.bio{
   position:fixed;
 }
 .portfolio-image{
-  opacity: 0.5;
+  opacity: 1;
 }
 .btn-social {
   display: inline-block;
@@ -149,3 +149,4 @@ div.name,div.bio{
   font-size: 20px;
   line-height: 45px;
 }
+
