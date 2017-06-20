@@ -149,4 +149,8 @@ div.name,div.bio{
   font-size: 20px;
   line-height: 45px;
 }
-
+#ABOUT{
+  -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
